@@ -1,7 +1,7 @@
 import teslajson
 
 
-c = teslajson.Connection('b0coat01@gmail.com', 'bwc2011!')
+c = teslajson.Connection('email', 'password')
 v = c.vehicles[0]
 v.wake_up()
 # v.command('auto_conditioning_start')
